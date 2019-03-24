@@ -3,13 +3,18 @@ layout: page
 title: INCITEFUL DATA
 subtitle: A question answered every other month by gathering and taming data
 use-site-title: true
+bigimg: /img/splash.png
 ---
 
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+    {% if post.external-url %}
+       <a href = "{{ post.external-url }}">
+    {% else %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
+    {% endif %}
+	  <h2 class="post-title">{{ post.title | upcase }}</h2>
 
 	  {% if post.subtitle %}
 	  <h3 class="post-subtitle">
@@ -33,8 +38,13 @@ use-site-title: true
       <div class="post-entry">
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+
+        {% if post.external-url %}
+          <a href = "{{ post.external-url }}" class = "post-read-more">[READ&nbsp;MORE]</a>
+        {% else %}
+          {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+            <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[READ&nbsp;MORE]</a>
+          {% endif %}
         {% endif %}
       </div>
     </div>

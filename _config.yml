@@ -17,7 +17,7 @@ baseurl: ""
 title: INCITEFUL DATA
 
 # Short description of your site
-description: A question answered every other month by gathering and taming data
+description: A new question answered every other month by gathering and taming data
 
 # --- Navigation bar options --- #
 
@@ -37,13 +37,13 @@ avatar: "/img/profile_pic.jpg"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#688DAA"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#F5F5F5"
+footer-col: "#eff3f6"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
@@ -149,7 +149,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Kenya/Nairobi"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
