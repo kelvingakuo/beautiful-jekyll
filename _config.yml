@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Inciteful Data
+title: INCITEFUL DATA
 
 # Short description of your site
 description: A question answered every other month by gathering and taming data
@@ -24,7 +24,6 @@ description: A question answered every other month by gathering and taming data
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Contact: "contact"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -89,18 +88,19 @@ share-links-active:
   twitter: true
   github: true
   linkedin: true
+  email: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+# gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-136820810-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -149,7 +149,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Kenya/Nairobi"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
