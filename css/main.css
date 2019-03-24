@@ -2,6 +2,33 @@
 layout: null
 ---
 
+/* Modal */
+.modal.in .modal-dialog {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    margin:0px;
+}
+.modal-content{
+  border-radius: 0px;
+}
+.modal-header{
+  background-color: {{ site.navbar-col }};
+}
+.modal-footer{
+  background-color: {{ site.footer-col }};
+}
+
+.modal .btn, .modal input{
+  border-radius: 0px;
+}
+
+.sub{
+  background-color: #32b30c;
+}
+
+/* --------- */
+
 @import url("pygment_highlights.css");
 
 /* --- General --- */
