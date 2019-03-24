@@ -18,14 +18,14 @@ layout: null
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>
           {% if post.external-url %}
-            {{ site.url }}{{ post.external-url }}
+            {{ post.external-url }}
           {% else %}
             {{ site.url }}{{ post.url }}
           {% endif %}
         </link>
         <guid isPermaLink="true">
           {% if post.external-url %}
-            {{ site.url }}{{ post.external-url }}
+            {{ post.external-url }}
           {% else %}
             {{ site.url }}{{ post.url }}
           {% endif %}

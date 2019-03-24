@@ -245,6 +245,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 193)
+  jekyll-feed
   jekyll-paginate
   tzinfo-data
 
