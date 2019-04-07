@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IS YOUR CROWDFUNDING CAMPAIGN GOING TO SUCCEED?
+subtitle: Are online 'harambes' worth your time and effort ?
 image: /img/crowdfund.jpg
 external-url: https://incitefuldata.blogspot.com/2018/06/is-your-crowdfunding-campaign-going-to.html
 ---

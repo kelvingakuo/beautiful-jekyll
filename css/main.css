@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-
+/* ---------------------------- MY ADDITIONS -------------------------
 /* Modal */
 .modal.in .modal-dialog {
     position:fixed;
@@ -29,12 +29,24 @@ layout: null
 
 /* --------- */
 
+#call_to_action{
+  background-color: #32b30c;
+  border-radius: 1;
+  color: #fff;
+}
+
+
+
+
+
+/* ---------------------------------- END HERE ---------------------------------
+
 @import url("pygment_highlights.css");
 
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;

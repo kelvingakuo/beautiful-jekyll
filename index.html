@@ -26,7 +26,13 @@ bigimg: /img/splash.png
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      <!-- Posted on {{ post.date | date: "%B %-d, %Y" }} -->
+      {% assign words = content | number_of_words %}
+      {% if words < 270 %}
+        {{ 1 | plus: 2}} min read
+      {% else %}
+        {{ words | divided_by:135 | plus: 2 }} mins read
+      {% endif %}
     </p>
 
     <div class="post-entry-container">
