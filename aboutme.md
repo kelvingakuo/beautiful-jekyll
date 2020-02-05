@@ -5,30 +5,24 @@ subtitle: Data nerd changing the world a step at a time
 ---
 
 <p align="center">
-  <img src="/img/gaxx.jpg" width = "250" height = "250">
+  <img src="/img/gaxx.jpg" id = "ppic" width = "250" height = "250">
 </p>
 
-Conceived somewhere in May 2018, this blog is here to show the kind of interesting, inciteful, insightful things you can dig out from all kinds of data by applying the right data science and ML analytics.
+Conceived somewhere in May 2018, this corner of the internet is here to show the kind of interesting, inciteful, insightful things you can dig out from all kinds of data simply by applying the right data science and ML techniques.
 
-If you love ML/AI, all the magic that comes with it, pretty charts, and intuitive explanations on how I to apply data science to interesting projects, then look no further!!!
+If you love ML/AI, all the magic that comes with it, pretty charts, and intuitive explanations on how to apply data science to interesting projects, then look no further!!!
 
+My name is Kelvin Gakuo but everyone calls me Gaxx. 
 
-My name is Kelvin Gakuo. Everyone calls me Gaxx though. I'm a Computer Engineering undergrad at JKUAT, in my last semester.
+I'm a self-taught data scientist & ML engineer, a huge proponent of [open source contributions](https://pypi.org/user/kelvingakuo/) and [mental wellness](http://twitter.com/mymjkuat)
 
-Me in a nutshell:
-1. Self-taught data scientist and ML engineer.
-2. Mental health activist. Co-founded [MindYourMind JKUAT](http://twitter.com/mymjkuat)
-3. My friend and I built a self-driving car!!! See it in action [here](https://twitter.com/kelvin_gakuo/status/1105156252395548672?s=19)
-4. Avid Basktbell player
-5. Swimmer
-6. I do card tricks!!!
+Oh, before I forget; I built a self-driving car!!! See it in action [here](http://bit.ly/2Kmccts)
 
 
 <div class = "text-center">
-	<button class = "btn btn-lg" href = "" id = "call_to_action">GET MY RESUME</button>
+	<a class = "btn btn-lg" href = "mailto:kelvingakuo@gmail.com?subject=Let's%20do%20something%20together" id = "call_to_action">LET'S DO SOMETHING TOGETHER</a>
 </div>
 
-Connect with me via any of the links at the bottom.
 
 "A meaningful life is where you have impact to those around you, no matter how small."
           

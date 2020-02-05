@@ -1,38 +1,22 @@
 ---
 layout: null
 ---
-/* ---------------------------- MY ADDITIONS -------------------------
-/* Modal */
-.modal.in .modal-dialog {
-    position:fixed;
-    bottom:0px;
-    right:0px;
-    margin:0px;
-}
-.modal-content{
-  border-radius: 0px;
-}
-.modal-header{
-  background-color: {{ site.navbar-col }};
-}
-.modal-footer{
-  background-color: {{ site.footer-col }};
-}
-
-.modal .btn, .modal input{
-  border-radius: 0px;
-}
-
-.sub{
-  background-color: #32b30c;
-}
-
-/* --------- */
-
+/* ---------------------------- MY ADDITIONS ------------------------- */
 #call_to_action{
-  background-color: #32b30c;
-  border-radius: 1;
-  color: #fff;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 0;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#ppic {
+  border-radius: 50%;
 }
 
 
@@ -46,14 +30,14 @@ layout: null
 /* --- General --- */
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  color: #404040;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  color: black;
   position: relative;
   background-color: {{ site.page-col }};
   {% if site.page-img %}
-  background-image: url({{ site.page-img }});
-  background-attachment: fixed;
+    background-image: url({{ site.page-img }});
+    background-attachment: fixed;
   {% endif %}
 }
 p {
@@ -61,7 +45,7 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
@@ -160,6 +144,7 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
+  margin-right: 5px;
 }
 
 .navbar-custom .navbar-brand,
@@ -486,10 +471,10 @@ footer .theme-by {
 }
 .intro-header.big-img {
   background: no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: auto;
+  -o-background-size: auto;
   margin-top: 51px; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 35px;
 }
@@ -529,7 +514,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
