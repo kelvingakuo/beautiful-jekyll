@@ -1,13 +1,5 @@
 // Dean Attali / Beautiful Jekyll 2016
 
-/* MOdal */
-$(document).ready(function(){
-    setTimeout(function(){
-       $("#myModal").modal('show');
-   }, 5000);
-});
-/* --------- */
-
 var main = {
 
   bigImgEl : null,

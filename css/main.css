@@ -150,14 +150,15 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: {{ site.navbar-text-col }};
+  color: black !important;
+  font-size: 0.8em;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: {{ site.hover-col }};
+  color: white;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -250,7 +251,7 @@ img {
 .navbar-custom .nav .navlinks-children {
   width: 100%;
   display: none;
-  word-break: break-word;
+  word-break: break-word; 
 }
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
@@ -632,6 +633,7 @@ footer .theme-by {
   background-color: #FFF;
   border-radius: 0;
   color: #404040;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
