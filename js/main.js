@@ -1,3 +1,14 @@
+// ================ MY ADDITIONS ===============
+particlesJS.load('particles_loc', '/js/particlesjs-config.json', function() {
+  console.log("Particles loaded!");
+  
+});
+
+
+// ===============================================
+
+
+
 // Dean Attali / Beautiful Jekyll 2016
 
 var main = {

@@ -1,11 +1,5 @@
----
-layout: page
-title: Projects
-subtitle: A question answered every other month by gathering and taming data
----
-
 <div class="posts-list">
-  {% for post in site.categories.projects%}
+  {% for post in paginator.posts %}
   <article class="post-preview">
     {% if post.external-url %}
        <a href = "{{ post.external-url }}">
@@ -69,3 +63,18 @@ subtitle: A question answered every other month by gathering and taming data
    </article>
   {% endfor %}
 </div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
