@@ -2,7 +2,8 @@
 layout: page
 title: Open Source Contributions
 subtitle: Playing my part in the software community
-bigimg: /img/splash.png
+# bigimg: /img/splash.png
+bigimg: /img/empty_back.png
 ---
 
 

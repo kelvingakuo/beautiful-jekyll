@@ -4,7 +4,6 @@ particlesJS.load('particles_loc', '/js/particlesjs-config.json', function() {
   
 });
 
-
 // ===============================================
 
 
