@@ -1,12 +1,38 @@
-// Dean Attali / Beautiful Jekyll 2016
-
-/* MOdal */
-$(document).ready(function(){
-    setTimeout(function(){
-       $("#myModal").modal('show');
-   }, 5000);
+// ================ MY ADDITIONS ===============
+particlesJS.load('particles_loc', '/js/particlesjs-config.json', function() {
+  console.log("Particles loaded!");
+  
 });
-/* --------- */
+
+$("#sub_to_blog").click(function(){
+  var email = $("#email").val();
+
+  if(email){
+    $("#sub_message").show(); 
+    $("#sub_message").text("Subscribing...");
+    $.ajax({
+      dataType: 'jsonp',
+      url: "http://getsimpleform.com/messages/ajax?form_api_token=91c6f7c349ebe7470e6a0f1ff7178f1d",
+      data: {
+        email: email
+      }
+    }).done(function() {
+      $("#sub_message").text("Thank you for your subscription. We'll notify you of new posts.");
+      $("#sub_message").show(); 
+    });
+  }
+
+  return false;
+});
+
+  
+
+
+// ===============================================
+
+
+
+// Dean Attali / Beautiful Jekyll 2016
 
 var main = {
 

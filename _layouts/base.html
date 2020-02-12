@@ -8,10 +8,17 @@ common-ext-css:
 common-googlefonts:
   - "Lora:400,700,400italic,700italic"
   - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+  - "Lato"
+  - "Montserrat"
+  - "Roboto"
+common-ext-js:
+  - "//cdn.jsdelivr.net/npm/typed.js@2.0.11"
 common-js:
   - "/js/jquery-1.11.2.min.js"
   - "/js/bootstrap.min.js"
+  - "/js/particles.js"
   - "/js/main.js"
+  - "/js/landing.js"
 ---
 
 <!DOCTYPE html>
@@ -20,6 +27,7 @@ common-js:
   {% include head.html %}
 
   <body>
+    <div id = "particles_loc"></div>
 
     {% include gtm_body.html %}
   

@@ -23,7 +23,13 @@ description: A new question answered every other month by gathering and taming d
 
 # List of links in the navigation bar
 navbar-links:
+  Projects: "projects"
+  Open Source: "opensource"
+  PWC: "paperswithcode"
+  Musings: "musings"
+  Tutorials: "tutorials"
   About Me: "aboutme"
+
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -66,6 +72,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
+  rss: true
   email: "kelvingakuo@gmail.com"
   github: kelvingakuo
   twitter: kelvin_gakuo
@@ -153,7 +160,7 @@ timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 3
 
 kramdown:
   input: GFM
