@@ -35,6 +35,21 @@ layout: base
         {{ content }}
       </article>
 
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-sm-1"></div>
+          <div class = "col-sm-7">
+            <form class = "subscription_form">
+              <li class = "subscription_li">
+                  <input type = "email" placeholder = "Your email" id="email" required>
+                  <button id = "sub_to_blog" value = "Subscribe">Subscribe</button>
+              </li>
+            </form>
+            <div id = "sub_message"></div>
+          </div>
+        </div>
+      </div>
+
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:

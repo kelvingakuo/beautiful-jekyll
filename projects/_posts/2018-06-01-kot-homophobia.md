@@ -2,7 +2,7 @@
 layout: post
 title: KFCBBANSLESBIAN FILM. ARE KENYANS ON TWITTER HOMOPHOBIC?
 subtitle: Did people support Ezekiel Mutua?
-image: /img/wanuri.jpg
+image: /img/homo/wanuri.jpg
 external-url: https://incitefuldata.blogspot.com/2018/06/kfcbbanslesbianfilm-are-kenyans-on.html
 ---
 

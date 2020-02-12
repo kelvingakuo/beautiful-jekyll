@@ -96,6 +96,40 @@ layout: null
   border-radius: 50%;
 }
 
+.subscription_li{
+  list-style-type: none;
+}
+
+.subscription_form{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.subscription_form input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.subscription_form button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.subscription_form button:hover {
+  background-color: royalblue;
+}
+
+#sub_message{
+  display: none;
+  color: dodgerblue;
+}
+
 
 
 /* ---------------------------------- END HERE ---------------------------------
